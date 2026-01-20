@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.barralateral {
+    position: relative;
+    width: 30vh;
+    background-color: #adadad;
+    color: #3b3b3b;
+    flex-shrink: 0;
+}
+
+.barralateral a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+}
+
+.barralateral h4{
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+    position: absolute;
+    bottom: 0;
+}
+
+.barralateral-header{
+    background-color: #9a9a9a;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.barralateral-header h2{
+    margin-left: 1vh;
+    gap: 10px;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 40px;
+}

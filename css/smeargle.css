@@ -1,22 +1,11 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.5px;
+}
+
 .fondo {
     background-image: url("../imagenes/fondo.jpg");
     background-color: gray;
     background-size: cover;
     width: 100%;
-}
-
-.content {
-    display: flex;
-    gap: 20px;
-}
-.barralateral {
-    width: 20vw;
-    height: 100vh;
-    margin: 0;
-}
-
-footer {
-    margin-top: auto;
-    position:absolute;
-    bottom: 0;
 }

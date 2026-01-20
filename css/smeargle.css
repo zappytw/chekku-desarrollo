@@ -1,0 +1,16 @@
+.fondo {
+    background-image: url("../imagenes/fondo.jpg");
+    background-color: gray;
+    background-size: cover;
+    width: 100%;
+}
+table {
+    width: 100%;
+}
+.content {
+    display: flex;
+    gap: 20px;
+}
+.barralateral {
+    width: 20%;
+}

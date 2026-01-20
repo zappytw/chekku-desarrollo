@@ -1,32 +1,31 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.5px;
+}
+
 .botonCrear {
-    /* Tamaño del botón (deben ser iguales) */
     width: 50px;
     height: 50px;
     
-    /* Forma circular */
     border-radius: 50%;
-    
-    /* Alineación del "+" justo en el centro */
+
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    /* Estilos visuales */
-    background-color: #007bff; /* Color azul */
-    color: white;              /* Color del + */
-    font-size: 24px;           /* Tamaño del + */
-    border: none;              /* Quita el borde por defecto */
-    cursor: pointer;           /* Cambia el cursor al pasar por encima */
-    transition: background 0.3s; /* Animación suave al pasar el mouse */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+
+    background-color: #007bff; 
+    color: white;              
+    font-size: 24px;          
+    border: none;             
+    cursor: pointer;          
+    transition: background 0.3s; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   }
   
-  /* Efecto al pasar el mouse */
   .botonCrear:hover {
     background-color: #0056b3;
   }
-  
-  /* Efecto al hacer clic */
+
   .botonCrear:active {
     transform: scale(0.95);
   }

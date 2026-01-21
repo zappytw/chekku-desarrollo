@@ -16,8 +16,8 @@ body,html{
 .barralateral {
     position: relative;
     width: 30vh;
-    background-color: #adadad;
-    color: #3b3b3b;
+    background-color: #ACBAC4;
+    color: white;
     flex-shrink: 0;
 
     position: fixed;
@@ -31,7 +31,7 @@ body,html{
     align-items: center;
     gap: 10px;
     text-decoration: none;
-    color: #333;
+    color: white;
     padding: 10px 0;
 }
 
@@ -43,7 +43,7 @@ body,html{
 }
 
 .barralateral-header{
-    background-color: #9a9a9a;
+    background-color: #30364F;
     padding: 10px;
     font-size: 22px;
     font-weight: bold;
@@ -60,6 +60,7 @@ body,html{
 }
 
 .content {
+    background-color: #F0F0DB;
     margin-left: 30vh;
     width: calc(100% - 30vh);
     height: 100vh;

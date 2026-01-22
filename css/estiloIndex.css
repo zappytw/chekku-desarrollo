@@ -76,8 +76,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.targeta i{
-  margin-right: 1vh;
+.targeta p{
+  color: #868686;
 }
-
 

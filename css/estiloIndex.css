@@ -80,3 +80,7 @@ body {
   color: #868686;
 }
 
+#hola:focus{
+  background-color: #005461;
+}
+

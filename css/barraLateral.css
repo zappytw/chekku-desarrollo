@@ -67,10 +67,10 @@ body,html{
     padding-left: 2vh;
 }
 .menu a:hover {
-    background-color: #8ea4b4;
+    background-color: #00757e;
 }
 .menu a:active {
-    background-color: #5e6f7a;
+    background-color: #00575e;
     transition: none
     ;
 }

@@ -37,10 +37,9 @@ body {
 }
 
 .titulo{
-  width: 90%;
+  width: 100%;
   margin-bottom: 1vh;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -49,7 +48,7 @@ body {
   height: 5px;
   background-color: #005461;
   border: none;
-  width: 100vh;
+  width: 100%;
   border-radius:50vh ;
 }
 

@@ -75,11 +75,29 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.targeta i {
+  padding-right: 1vh;
+}
+
 .targeta p{
   color: #868686;
 }
 
-#hola:focus{
-  background-color: #005461;
+.tareasContenedor h3{
+  color: #868686;
+  margin-bottom: 2vh;
 }
 
+.tareas{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 3vh;
+  color: #555555;
+}
+
+
+
+.sinCompletar{
+  margin-bottom: 2vh;
+}

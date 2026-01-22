@@ -16,7 +16,7 @@ body,html{
 .barralateral {
     position: relative;
     width: 30vh;
-    background-color: #ACBAC4;
+    background-color: #018790;
     color: white;
     flex-shrink: 0;
 
@@ -43,7 +43,7 @@ body,html{
 }
 
 .barralateral-header{
-    background-color: #30364F;
+    background-color: #005461;
     padding: 10px;
     font-size: 22px;
     font-weight: bold;
@@ -55,7 +55,7 @@ body,html{
     gap: 10px;
 }
 .content {
-    background-color: #F0F0DB;
+    background-color: #F4F4F4;
     margin-left: 30vh;
     width: calc(100% - 30vh);
     height: 100vh;

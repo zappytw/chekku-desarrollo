@@ -54,11 +54,6 @@ body,html{
     margin-left: 1vh;
     gap: 10px;
 }
-
-.menu {
-    padding: 20px;
-}
-
 .content {
     background-color: #F0F0DB;
     margin-left: 30vh;
@@ -66,4 +61,16 @@ body,html{
     height: 100vh;
     overflow-y:auto ;
     padding: 40px;
+}
+.menu a {
+    transition: background-color 0.3s ease-in-out; 
+    padding-left: 2vh;
+}
+.menu a:hover {
+    background-color: #8ea4b4;
+}
+.menu a:active {
+    background-color: #5e6f7a;
+    transition: none
+    ;
 }

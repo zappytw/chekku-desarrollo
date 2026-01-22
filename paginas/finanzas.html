@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="css/estiloIndex.css">
-    <link rel="stylesheet" href="css/barraLateral.css">
-    <link rel="stylesheet" href="css/tareas.css">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/barraLateral.css">
+    <link rel="stylesheet" href="../css/tareas.css">
+    <link rel="stylesheet" href="../css/categoria.css">
+    <title>trabajo</title>
 </head>
 <body>
     <div class="layout">
@@ -20,11 +22,11 @@
                 </h2>
             </div>
             <nav class="menu">
-                <a href="index.html">
+                <a href="../index.html">
                     <i class="fa-solid fa-house"></i>
                     Inicio
                 </a>
-                <a href="paginas/crearTarea.html">
+                <a href="crearTarea.html">
                     <i class="fa-solid fa-plus"></i>
                     Nueva tarea
                 </a>
@@ -35,38 +37,9 @@
             </nav>
             <H4>Joel y Felix 2025.</H4>
         </aside>
-
         <main class="content">
             <div>
-                <div class="titulo">
-                    <h1>Categoria</h1>
-                    <hr>
-                </div>
-                <div class="targetas">
-                    <div class="targeta" onclick="window.location.href='paginas/trabajo.html'">
-                        <h1><i class="fa-solid fa-briefcase"></i>Trabajo</h1>
-                        <p>sin tareas pendientes</p>
-                    </div>
-                    <div class="targeta" onclick="window.location.href='paginas/estudio.html'">
-                        <h1><i class="fa-solid fa-book"></i>Estudios</h1>
-                        <p>2 tareas pendientes</p>
-                    </div>
-                    <div class="targeta" onclick="window.location.href='paginas/hogar.html'">
-                        <h1><i class="fa-solid fa-house"></i>Hogar</h1>
-                        <p>sin tareas pendientes</p>
-                    </div>
-                    <div class="targeta" onclick="window.location.href='paginas/finanzas.html'">
-                        <h1><i class="fa-solid fa-money-bill"></i>Finanzas</h1>
-                        <p>10 tareas pendientes</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div>
-                <div class="titulo">
-                    <h1>tareas</h1>
-                    <hr>
-                </div>
+                <h1><i class="fa-solid fa-money-bill"></i>Finanzas</h1>
                 <div class="tareasContenedor sinCompletar">
                     <h3>Sin completar</h3>
                     <div class="tareas">
@@ -86,6 +59,30 @@
                             <input type="checkbox" class="checkboxTarea">
                             <span>Pagar el recibo del internet.</span>
                         </label>
+                        <label for="checkBox">
+                            <input type="checkbox" class="checkboxTarea">
+                            <span>Trabajar en la pagina</span>
+                        </label>
+                        <label for="checkBox">
+                            <input type="checkbox" class="checkboxTarea">
+                            <span>Llamar al médico para pedir la cita anual.</span>
+                        </label>
+                        <label for="checkBox">
+                            <input type="checkbox" class="checkboxTarea">
+                            <span>Organizar el escritorio de trabajo.</span>
+                        </label>
+                        <label for="checkBox">
+                            <input type="checkbox" class="checkboxTarea">
+                            <span>Pagar el recibo del internet.</span>
+                        </label>
+                        <label for="checkBox">
+                            <input type="checkbox" class="checkboxTarea">
+                            <span>Trabajar en la pagina</span>
+                        </label>
+                        <label for="checkBox">
+                            <input type="checkbox" class="checkboxTarea">
+                            <span>Llamar al médico para pedir la cita anual.</span>
+                        </label>
                     </div>
                 </div>
                 <div class="tareasContenedor completadas">
@@ -103,16 +100,10 @@
                             <input type="checkbox" class="checkboxTarea" checked>
                             <span>Entregar el avance del proyecto final de física.</span>
                         </label>
-                        <label for="checkBox">
-                            <input type="checkbox" class="checkboxTarea" checked>
-                            <span>Sacar al perro</span>
-                        </label>
                     </div>
                 </div>
             </div>
-            
-            <button onclick="window.location.href='paginas/crearTarea.html'" class="botonCrear">+</button>
         </main>
     </div>
 </body>
-</html> 
+</html>

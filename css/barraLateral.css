@@ -62,13 +62,20 @@ body,html{
     overflow-y:auto ;
     padding: 40px;
 }
+
+.menu{
+    margin-top: 3vh;
+}
+
 .menu a {
     transition: background-color 0.3s ease-in-out; 
     padding-left: 2vh;
 }
+
 .menu a:hover {
     background-color: #00757e;
 }
+
 .menu a:active {
     background-color: #00575e;
     transition: none

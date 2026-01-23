@@ -1,0 +1,12 @@
+.barrasuperior {
+    background-color: #005461;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.barrasuperior h2{
+    margin-left: 1vh;
+    gap: 10px;
+
+}

@@ -72,6 +72,15 @@
   cursor: pointer;
 }
 
+.targetacrear{
+  background-color: #00909b;
+  color: white;
+}
+
+.targetacrear p{
+  color: #eeeeee !important;
+}
+
 .targeta i {
   padding-right: 1vh;
 }

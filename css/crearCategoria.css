@@ -1,11 +1,17 @@
+.content form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+
 .checkboxBonito{
-    border-radius: 4%;
     background-color: #e7e7e7;
     justify-content: center;
     align-items: center;
+    border-radius: 3vh;
 }
 
-.checkboxBonito h3{
+h3{
     color: #868686;
     padding: 1vh;
     margin: auto;
@@ -31,7 +37,7 @@ h1{
 .agregarColor{
     width: 45vh;
     height: 12vh;
-    margin-bottom: 20px;
+
 }
 
 .iconos{
@@ -118,3 +124,67 @@ input[type="radio"] {
     color: white;
 }
 
+.nombre{
+    background-color: #e7e7e7;
+    border-radius: 3vh;
+    width: 45vh;
+    height: 12vh;
+}
+
+.nombre input{
+    width: 40vh;
+    height: 5vh;
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    outline: none;
+    border-radius: 2vh;
+
+    padding-left: 2vh;
+    font-size: 2vh;
+
+    transition: all 0.3s ease;
+}
+
+.nombre input:focus{
+    transform: scale(1.03);
+}
+
+.botonCrear {
+    text-decoration: none;
+    
+    width: 12vh;
+    height: 50px;
+
+    border-radius: 2vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #005461; 
+    color: white;              
+    font-size: 24px;            
+    border: none;             
+    cursor: pointer;          
+    transition: background 0.3s; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+    
+}
+
+.botonCrear:hover {
+    background-color: #003e47;
+}
+
+.botonCrear:active {
+    transform: scale(0.95);
+}
+
+.botonCrear i {
+    padding-right: 6px;
+}

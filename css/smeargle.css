@@ -2,14 +2,8 @@ body {
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 0.5px;
 }
-
-.fondo {
-    background-color: rgb(255, 255, 255);
-    background-size: cover;
-    width: 100%;
-}
 input[type="text"] {
-    width: 35vw;
+    width: 100%;
     padding: 10px 15px;
     margin: 8px 0;
     display: inline-block; 
@@ -19,9 +13,10 @@ input[type="text"] {
     font-size: 16px;
     border-color: #8b8b8b;
     outline: none;
+    font-family: quicksand;
 }
 textarea {
-    width: 35vw;
+    width: 100%;
     padding-top: 94px;
     padding-left: 15px;
     padding-right: 15px;
@@ -35,54 +30,55 @@ textarea {
     outline: none;
     background-image: url("../imagenes/fondocuaderno.jpg");
     resize: none;
-    height: 70vh;
+    height: 46.5vh;
     line-height: 2.05;
 }
 input[type="date"] {
     appearance: none; 
-    position: absolute;
+    width: 100%;
+    padding: 10px 15px;
     margin: 8px 0;
-    color: #a0a0a0;
-    font-family: "Quicksand", sans-serif;
-    font-size: 18px;
-    border: 1px solid #ecf0f1;
-    background: #ecf0f1;
-    padding: 7px 0px;
-    display: inline-block !important;
-    visibility: visible !important;
+    display: inline-block; 
+    border: 1px solid #ccc; 
     border-radius: 20px;
-    width: 35vw;
-    box-shadow: gray;
-    outline: gray;
+    box-sizing: border-box; 
+    font-size: 16px;
+    border-color: #8b8b8b;
+    outline: none;
+    font-family: quicksand;
 }
 
-#formulario1 {
-    position: absolute;
-    top: 0;
-    margin-top: 150px;
+.formulario1 {
+    margin-top: 2vh;
     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    gap: 30px;
+
     
 }
 #fechalimite{
     margin-top: 10px;
 }
 #prioridad {
-    margin-top: 70px;
+    margin-top: 10px;
 }
 .izquierda {
+    max-width: 45%;
+    min-width: 300px;
     flex: 1;
 }
 .derecha {
-    flex: 2;
-    position: absolute;
-    margin-left: 40vw;
+    max-width: 45%;
+    min-width: 300px;
+    flex: 1;
 }
-
-input[type="range"] {
-    width: 35vw;
-    margin-top: 40px;
-    height:7px;
-    
+.columnaizquierda {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 300px;
 }
 input[type='range']::-webkit-slider-thumb {
     -webkit-appearance: none !important;
@@ -94,29 +90,79 @@ input[type='range']::-webkit-slider-thumb {
     cursor: pointer;
     transform: scale(1.3);
 }
-#prioridades {
-    position: absolute;
-    top: 0;
-    margin-top: 275px;
-    display: flex;    
-}
-#baja {
-    position: absolute;
-    left: 0;
-    margin-left: 0vw;
-}
-#media {
-    position: relative;
-    left: 0;
-    margin-left: 16vw;
-}
-#alta {
-    position: absolute;
-    left: 0;
-    margin-left: 32vw;
-}
 input[type="text"]:focus{
     outline: none !important;
     border-color: gray;
     box-shadow: 0 0 8px gray;
+}
+select {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 20px;
+    box-sizing: border-box; 
+    font-size: 16px;
+    border-color: #8b8b8b;
+    outline: none;
+    background-color: white;
+    font-family: quicksand;
+}
+select:focus{
+    outline: none !important;
+    box-shadow: 0 0 8px gray;
+}
+input[type="date"]:focus {
+    outline: none !important;
+    box-shadow: 0 0 8px gray;
+}
+#categoria {
+    margin-top: 8px;
+}
+input[type="time"] {
+    position: relative;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 20px;
+    box-sizing: border-box; 
+    font-size: 16px;
+    border-color: #8b8b8b;
+    outline: none;
+    background-color: white;
+    font-family: quicksand;
+}
+input[type="time"]:focus {
+    outline: none !important;
+    box-shadow: 0 0 8px gray;
+}
+button {
+    position: absolute;
+    width: 45%;
+    padding: 10px 15px;
+    margin: 8px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 20px;
+    box-sizing: border-box; 
+    font-size: 24px;
+    border-color: #8b8b8b;
+    outline: none;
+    background-color: #018790;
+    font-family: quicksand;
+    color: white;
+    font-weight: 1000;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+button:active {
+    background-color: #006f77;
+    transform: scale(0.95) !important;
+
+}
+button:hover {
+    transform: scale(1.05);
+}
+form {
+    position: relative;
 }

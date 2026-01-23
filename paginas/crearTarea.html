@@ -41,32 +41,40 @@
             </div>
             
             <form>
-                <div id="formulario1">
-                    <div class="izquierda">
-                        <h2 id="nombretarea"><i class="fa-solid fa-pen-to-square"></i> Nombre de la tarea</h2>
-                        <input type="text" placeholder="Enter text here" class="inputPersonalizado">
-
-
-                        <h2 id="fechalimite"><i class="fa-solid fa-calendar-days"></i> 
-                            Fecha Límite</h2>
-                        <input type="date">
-
-                
-                        <h2 id="prioridad"><i class="fa-solid fa-crown"></i> Prioridad</h2>
-                        <input type="range" min="1" max="3">
-                        <div id="prioridades">
-                            <h5 id="baja">BAJA</h5>
-                            <H5 id="media">MEDIA</H5>
-                            <H5 id="alta">ALTA</H5>
-
+                <div class="formulario1">
+                        <div class="izquierda">
+                            <h2 id="nombretarea"><i class="fa-solid fa-icons"></i> Nombre de la tarea</h2>
+                            <input type="text" placeholder="Enter text here" class="inputPersonalizado">
+                            <h2 id="fechalimite"><i class="fa-solid fa-calendar-days"></i> 
+                                Fecha Límite</h2>
+                            <input type="date">
+                            <h2><i class="fa-solid fa-clock"></i> Hora Límite</h2>
+                            <input type="time">
+                            <h2 id="prioridad"><i class="fa-solid fa-crown"></i> Prioridad</h2>
+                            <select name="" id="">
+                                <option value="">Baja</option>
+                                <option value="">Media</option>
+                                <option value="">Alta</option>
+                            </select>
+                            <h2 id="categoria"><i class="fa-solid fa-pen-to-square"></i> Categoría</h2>
+                            <select name="" id="">
+                                <option value="">Trabajo</option>
+                                <option value="">Estudios</option>
+                                <option value="">Hogar</option>
+                                <option value="">Finanzas</option>
+                            </select>
                         </div>
-                    </div> 
                     <div class="derecha">
-                        <h2>Descripción de la tarea</h2>
+                        <h2><i class="fa-solid fa-file-lines"></i> Descripción de la tarea</h2>
                         <textarea type="text" rows="5" cols="30"></textarea>
+                        <div class="botonenviar">
+                            <button>Crear Tarea</button>
+                        </div> 
                     </div>
-
-                </div> 
+                </div>
+                
+                
+                
             </form>
         </main>
     </div>

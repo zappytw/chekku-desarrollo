@@ -8,56 +8,53 @@
 
 </head>
 <body>
-    <div class="radio-group">
-        <input type="radio" name="opcion" id="user">
-        <label for="user" class="radio-fa">
-          <i class="fa-solid fa-user"></i>
-        </label>
-      
-        <input type="radio" name="opcion" id="home">
-        <label for="home" class="radio-fa">
-          <i class="fa-solid fa-house"></i>
-        </label>
-      
-        <input type="radio" name="opcion" id="car">
-        <label for="car" class="radio-fa">
-          <i class="fa-solid fa-car"></i>
-        </label>
-      </div>
+    <div class="iconos">
+
+  <label class="icon-option">
+    <input type="radio" name="icono" />
+    <img src="../imagenes/fondo.jpg" alt="Casa">
+  </label>
+
+  <label class="icon-option">
+    <input type="radio" name="icono" />
+    <img src="icono-auto.png" alt="Auto">
+  </label>
+
+</div>
 </body>
 <style>
-/* Ocultamos el radio real */
-input[type="radio"] {
-    display: none;
-  }
-  
-  /* Estilo base del botón */
-  .radio-fa {
-    width: 60px;
-    height: 60px;
-    border: 2px solid #ccc;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 26px;
-    color: #666;
-    transition: all 0.2s ease;
-  }
-  
-  /* Hover */
-  .radio-fa:hover {
-    border-color: #999;
-    transform: scale(1.05);
-  }
-  
-  /* Estado seleccionado */
-  input[type="radio"]:checked + .radio-fa {
-    border-color: #007bff;
-    background-color: #e6f0ff;
-    color: #007bff;
-  }
-  
+.icon-option {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* ocultar radio real */
+.icon-option input {
+  display: none;
+}
+
+/* tamaño de la imagen */
+.icon-option img {
+  width: 28px;
+  height: 28px;
+}
+
+/* CUANDO ESTÁ SELECCIONADO */
+.icon-option input:checked + img {
+  background-color: transparent;
+}
+
+/* usamos :has para cambiar el fondo del círculo */
+.icon-option:has(input:checked) {
+  background-color: #5bc0de; /* color seleccionado */
+  transform: scale(1.05);
+}
 </style>
 </html>

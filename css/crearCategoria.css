@@ -62,15 +62,59 @@ input[type="radio"] {
     border: none;
 }
 
-.radio-fa:hover {
-    border-color: #999;
+.colores .radio-fa i {
+    opacity: 0;
+}
+
+.colores .radio-fa{
+    width: 4.37vh;
+    height: 4.37vh;
+}
+
+.rojo{
+    background-color: #FF0000;
+}
+.naranja{
+    background-color: #FF932E;
+}
+.amarillo{
+    background-color: #FFCB2E;
+}
+.verde{
+    background-color: #46D100;
+}
+.aguaMarina{
+    background-color: #00D1D1;
+}
+.azul{
+    background-color: #2EC7FF;
+}
+.morado{
+    background-color: #932EFF;
+}
+.rosado{
+    background-color: #E02EFF;
+}
+
+.iconos .radio-fa:hover {
     background-color: #018790;
     color: white;
     transform: scale(1.20);
 }
 
-input[type="radio"]:checked + .radio-fa {
+.colores .radio-fa:hover{
+    filter: brightness(0.85);
+    transform: scale(1.20);
+}
+
+.iconos input[type="radio"]:checked + .radio-fa {
     border-color: #018790;
     background-color: #e6f0ff;
     color: #018790;
 }
+
+.colores input[type="radio"]:checked + .radio-fa i{
+    opacity: 100;
+    color: white;
+}
+

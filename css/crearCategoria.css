@@ -1,3 +1,24 @@
+.checkboxBonito{
+    border-radius: 4%;
+    background-color: #e7e7e7;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkboxBonito h3{
+    color: #868686;
+    padding: 1vh;
+    margin: auto;
+    margin-left: 1.5vh;
+}
+
+.checkboxobjetos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 0.5vh;
+}
+
 h1{
     margin-bottom: 2vh;
 }
@@ -5,35 +26,26 @@ h1{
 .agregarIcono{
     width: 45vh;
     height: 52vh;
-
-    border-radius: 4%;
-
-    background-color: #e7e7e7;
-    justify-content: center;
-    align-items: center;
-
 }
 
-.agregarIcono h3{
-    color: #868686;
-    padding: 1vh;
-    margin: auto;
-    margin-left: 1.5vh;
+.agregarColor{
+    width: 45vh;
+    height: 12vh;
+    margin-bottom: 20px;
 }
 
 .iconos{
-    display: flex;
-    flex-wrap: wrap;
     width: 38.5vh;
-    margin: auto;
-    gap: 0.5vh;
+}
+
+.colores{
+    width: 38.5vh;
 }
 
 input[type="radio"] {
     display: none;
 }
 
-  /* Estilo base del botón */
 .radio-fa {
     width: 6vh;
     height: 6vh;
@@ -50,7 +62,6 @@ input[type="radio"] {
     border: none;
 }
 
-  /* Hover */
 .radio-fa:hover {
     border-color: #999;
     background-color: #018790;
@@ -58,7 +69,6 @@ input[type="radio"] {
     transform: scale(1.20);
 }
 
-  /* Estado seleccionado */
 input[type="radio"]:checked + .radio-fa {
     border-color: #018790;
     background-color: #e6f0ff;

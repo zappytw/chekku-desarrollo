@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: center;
 
-  background-color: #007bff; 
+  background-color: #005461; 
   color: white;              
   font-size: 24px;            
   border: none;             
@@ -24,7 +24,7 @@
 }
 
 .botonCrear:hover {
-  background-color: #0056b3;
+  background-color: #003e47;
 }
 
 .botonCrear:active {

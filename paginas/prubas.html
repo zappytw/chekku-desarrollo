@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="radio-group">
+        <input type="radio" name="opcion" id="user">
+        <label for="user" class="radio-fa">
+          <i class="fa-solid fa-user"></i>
+        </label>
+      
+        <input type="radio" name="opcion" id="home">
+        <label for="home" class="radio-fa">
+          <i class="fa-solid fa-house"></i>
+        </label>
+      
+        <input type="radio" name="opcion" id="car">
+        <label for="car" class="radio-fa">
+          <i class="fa-solid fa-car"></i>
+        </label>
+      </div>
+</body>
+<style>
+/* Ocultamos el radio real */
+input[type="radio"] {
+    display: none;
+  }
+  
+  /* Estilo base del botón */
+  .radio-fa {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 26px;
+    color: #666;
+    transition: all 0.2s ease;
+  }
+  
+  /* Hover */
+  .radio-fa:hover {
+    border-color: #999;
+    transform: scale(1.05);
+  }
+  
+  /* Estado seleccionado */
+  input[type="radio"]:checked + .radio-fa {
+    border-color: #007bff;
+    background-color: #e6f0ff;
+    color: #007bff;
+  }
+  
+</style>
+</html>

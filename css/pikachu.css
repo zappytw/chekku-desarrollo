@@ -11,15 +11,42 @@
 
 }
 main {
-    margin-top: 2vh;
+margin: 10vh 0vw 2vw 5vw;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     flex-direction: row;
-    gap: 30px;
+    gap: 0px;
+    overflow: auto;
+    height: 100%;
+    
 }
 .landing-left {
-    max-width: 45%;
-    min-width: 300px;
+    width: 100%;
     flex: 1;
+    font-size: 25px;
+    margin-top: 10vh;
+    font-family: geist;
+}
+p {
+    font-size: 20px;
+}
+.landing-right {
+    flex: 1.2;
+    scale: 1;
+}
+* {
+    outline: 0px solid red;
+}
+@media (max-width: 758px) {
+main {
+    justify-content: center;
+}
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background: #020024;
+background: linear-gradient(0deg, #ffffff 0%, #e8d0ff 35%, #8a95ff 100%);
 }

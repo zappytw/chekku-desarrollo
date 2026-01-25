@@ -1,15 +1,41 @@
 .barrasuperior {
+    height: 8vh;
     background-color: #005461;
     padding: 10px;
     font-size: 22px;
     font-weight: bold;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .barrasuperior h2{
     margin-left: 1vh;
     gap: 10px;
-
 }
+
+.barrasuperior header{
+    width: 5vh;
+}
+
+.barrasuperior nav{
+    width: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barrasuperior a{
+    text-decoration: none;
+    color: white;
+}
+
+.barrasuperior button{
+    width:10vh;
+    background-color:aquamarine;
+    margin-top: auto;
+    margin-right: 2vh;
+}
+
 main {
     width: auto;
     margin: 10vh 0vw 2vw 5vw;
@@ -19,7 +45,6 @@ main {
     gap: 0px;
     overflow: auto;
     height: auto;
-    
 }
 .landing-left {
     width: 100%;
@@ -48,7 +73,6 @@ main {
     justify-content: center;
     .landing-left {
         order: 2;
-
     }
     .landing-right {
         order: 1;
@@ -63,10 +87,12 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    background: RGBA(0, 84, 97, 1);
-    background: linear-gradient(180deg, rgba(0, 84, 97, 1) 0%, rgba(0, 138, 138, 0.27) 51%, rgba(255, 255, 255, 1) 100%);
+    background: #005461;
+    background: linear-gradient(141deg, rgba(0, 84, 97, 1) 0%, rgba(1, 135, 144, 1) 50%, rgba(0, 183, 181, 1) 100%);
 }
-button {      
+button {
+    border: none;
     margin-top: 30px;
     width: 100%;
+    background-color: #005461;
 }

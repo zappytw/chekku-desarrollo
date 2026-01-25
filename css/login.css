@@ -1,0 +1,161 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.5px;
+
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(
+    175deg,
+    #005461 0%,
+    #018790 83%,
+    #00b7b5 100%
+    );
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+    opacity: 0.05;
+    pointer-events: none;
+}
+
+form{
+    width: 40vh;
+    height: 50vh;
+    background-color: #003E47;
+    color: white
+;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: c;
+    border-radius: 2vh;
+}
+
+.input{
+    margin: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+.input input{
+    border: none;
+    outline: none;
+    border-radius: 2vh;
+
+    height: 4vh;
+
+    padding-left: 2vh;
+    font-size: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    transition: all 0.3s ease;
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre input:focus{
+    transform: scale(1.03);
+}
+
+
+.volver {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #005461; 
+    color: white;              
+    font-size: 24px;            
+    border: none;             
+    cursor: pointer;          
+    transition: background 0.3s; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 3vh;
+}
+
+.volver:hover {
+    background-color: #003e47;
+}
+
+.volver:active {
+    transform: scale(0.95);
+}
+
+
+.botonLogin {
+    text-decoration: none;
+    
+    width: 35vh;
+    height: 5vh;
+
+    border-radius: 2vh;
+
+    background-color: #005461; 
+    color: white;              
+    font-size: 24px;            
+    border: none;             
+    cursor: pointer;          
+    transition: background 0.3s; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.botonLogin:hover {
+    background-color: #003e47;
+}
+
+.botonLogin:active {
+    transform: scale(0.95);
+}
+
+.singmethod{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos img{
+    margin: 0.5vh;
+}
+
+.logo_empresas{
+    width: 4vh;
+}

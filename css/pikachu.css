@@ -30,7 +30,7 @@
 }
 
 .barrasuperior button{
-    width:10vh;
+    width:10vw;
     background-color:aquamarine;
     margin-top: auto;
     margin-right: 2vh;
@@ -52,7 +52,7 @@ main {
     font-size: 25px;
     margin-top: 10vh;
     font-family: geist;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 p {
     font-size: 20px;
@@ -96,3 +96,5 @@ button {
     width: 100%;
     background-color: #005461;
 }
+
+
